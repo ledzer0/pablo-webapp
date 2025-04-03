@@ -4,8 +4,8 @@ import os
 
 app = Flask(__name__)
 
-TOYYIB_SECRET_KEY = os.getenv("TOYYIB_SECRET_KEY", "your-secret-key")
-TOYYIB_CATEGORY_CODE = os.getenv("TOYYIB_CATEGORY_CODE", "your-category-code")
+TOYYIB_SECRET_KEY = os.getenv("TOYYIB_SECRET_KEY", "l0f6cyv6-tv47-hdlz-xqas-to1o6j1amh6v")
+TOYYIB_CATEGORY_CODE = os.getenv("TOYYIB_CATEGORY_CODE", "gnuga7m4")
 
 @app.route('/')
 def home():
